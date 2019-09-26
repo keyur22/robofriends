@@ -1,0 +1,6 @@
+div.scroll {
+    height: 70vh;
+    overflow-y: scroll;
+    border: 1px solid #fff;
+    padding: 2%;
+}
