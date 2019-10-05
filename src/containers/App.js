@@ -25,7 +25,7 @@ class App extends React.Component {
 
 	render() {
 		const { robots, searchField } = this.state;
-		const filteredRobots = robots.filter(robot => robot.name.toLowerCase().includes(searchField));
+		const filteredRobots = robots.filter(robot => robot.name.toLowerCase().includes(searchField.toLowerCase()));
 
 		if (!robots.length) {
 			return (<h1 className='light-blue tc'>Loading...</h1>);
